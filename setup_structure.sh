@@ -9,7 +9,6 @@ mkdir -p config
 mkdir -p spec
 mkdir -p k8s/helm-chart
 mkdir -p .circleci
-mkdir -p .github/workflows
 mkdir terraform
 
 # Touch files
@@ -37,7 +36,6 @@ touch config/elasticsearch.yml
 touch config/redis.yml
 
 touch .circleci/config.yml
-touch .github/workflows/ci.yml
 touch Dockerfile
 touch docker-compose.yml
 touch sentry_initializer.rb
